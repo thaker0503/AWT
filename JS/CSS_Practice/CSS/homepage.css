@@ -1,0 +1,55 @@
+body{
+    background-color: azure;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Font/WidatiRegularDemo.otf);
+  }
+  @font-face {
+    font-family: mySecondFont;
+    src: url(../Font/Dinosaur.ttf);
+  }
+  h1{
+    font-family:myFirstFont;
+    font-size: 34px;
+    color: brown;
+    margin: 10px;
+    text-shadow: 1px 1px 1px lightsalmon;
+  }
+  h2{
+    font-family:mySecondFont;
+    font-size: 34px;
+    color: purple;
+    margin: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px palevioletred;
+  }
+  .img1{
+    height: 250px;
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: 10px 10px;
+    margin:15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  #img2{
+    height: 450px;
+    width: 450px;
+    box-sizing: border-box;
+    border-radius: 10px 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .slider_img{
+    width: 300px;
+  }
+  .slider_img img{
+    width: 300px;
+  }
+ .float-left{
+    float: left;
+ }
+ .clear{
+    clear:both;
+ }
